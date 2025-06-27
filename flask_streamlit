@@ -1,0 +1,33 @@
+⚖️ Streamlit vs Flask — Side-by-Side
+Feature	Streamlit	Flask
+Purpose	Build data apps quickly (dashboards, ML demos)	Build full web apps & APIs
+Setup	Minimal — runs like a script	More setup: routes, templates, etc.
+User Interface	Built-in UI components (st.text_input, st.button)	You need to write HTML, CSS (or use templates)
+Use Case	Rapid ML prototyping, dashboards, visualizations	Production-grade web apps, REST APIs
+Customizability	Limited (predefined layout and widgets)	Highly flexible (custom HTML, JS, CSS)
+Learning Curve	Very easy (great for beginners)	Steeper curve (web development basics required)
+Speed to Build	Very fast (few lines of code)	Slower — more boilerplate
+Interactivity	Built-in (sliders, forms, live update)	Manual with JavaScript or templates
+
+✅ When to Use:
+Use Streamlit if:
+
+You want a quick interface for ML/data projects
+
+You don’t want to write HTML/CSS
+
+You’re building an internal tool, demo, or dashboard
+
+Use Flask if:
+
+You need a custom website or REST API
+
+You're integrating user authentication, databases, etc.
+
+You want full control over layout and frontend
+
+👨‍🔬 TL;DR:
+Streamlit = great for data scientists
+
+Flask = great for web developers
+
